@@ -1,9 +1,6 @@
-import type { Config } from "jest";
-const config: Config = {
+module.exports = {
   testEnvironment: "jsdom",
-  transform: {
-    "^.+\\.(t|j)sx?$": "@swc/jest"
-  }
+  // transform: {
+  //   // "^.+\\.(t|j)sx?$": "@swc/jest"
+  // }
 };
-
-export default config;
